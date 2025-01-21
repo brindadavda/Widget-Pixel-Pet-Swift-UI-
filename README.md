@@ -1,4 +1,4 @@
-# Widget Pixel Pets
+# Widget Pixel Pets 
 
 Widget Pixel Pets is an engaging iOS application that brings pixelated pets to your widgets. This project has been redesigned and refactored to meet modern design and coding standards. The app is compatible with both iPhone and iPad, offering a seamless and bug-free experience.
 
@@ -14,9 +14,14 @@ Widget Pixel Pets is an engaging iOS application that brings pixelated pets to y
 ---
 
 ## 📱 Screenshots
-| iPhone | iPad |
-|--------|------|
-| Add screenshots here | Add screenshots here |
+| iPhone |
+## 📱 Screenshots
+| iPhone |
+|--------|
+| <img src="https://github.com/user-attachments/assets/83442366-d4ec-4118-ae90-689917f243cf" alt="Screenshot 1" width="300"> |
+| <img src="https://github.com/user-attachments/assets/f7f70546-b22b-4817-833a-cf4caadb3be8" alt="Screenshot 2" width="300"> |
+| <img src="https://github.com/user-attachments/assets/b059e490-8ef3-4d94-acc8-c076b1884a13" alt="Screenshot 3" width="300"> |
+| <img src="https://github.com/user-attachments/assets/35c30e66-8df7-445a-827c-c2c485a1a006" alt="Screenshot 4" width="300"> |
 
 ---
 
@@ -32,4 +37,5 @@ Widget Pixel Pets is an engaging iOS application that brings pixelated pets to y
    git clone https://github.com/your-username/Widget-Pixel-Pets.git
 
 cd Widget-Pixel-Pets
+
 open WidgetPixelPets.xcodeproj
