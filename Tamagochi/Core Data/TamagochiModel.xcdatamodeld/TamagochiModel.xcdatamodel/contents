@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E261" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TamagochiActionData" representedClassName="TamagochiActionData" syncable="YES" codeGenerationType="class">
+        <attribute name="action" optional="YES" attributeType="String"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="TamagochiImage" inverseName="action" inverseEntity="TamagochiImage"/>
+        <relationship name="tamagochiEntity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TamagochiEntity" inverseName="actionData" inverseEntity="TamagochiEntity"/>
+    </entity>
+    <entity name="TamagochiEntity" representedClassName="TamagochiEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="health" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastTimeFed" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lastTimePlayed" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lieImageData" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="normalImageData" optional="YES" attributeType="Binary"/>
+        <attribute name="scrolledEogether" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sitImageData" optional="YES" attributeType="Binary"/>
+        <attribute name="startName" optional="YES" attributeType="String"/>
+        <attribute name="weight" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="actionData" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TamagochiActionData" inverseName="tamagochiEntity" inverseEntity="TamagochiActionData"/>
+        <relationship name="logic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TamagochiLogicEnt" inverseName="currentTamagochi" inverseEntity="TamagochiLogicEnt"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="TamagochiImage" representedClassName="TamagochiImage" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <relationship name="action" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TamagochiActionData" inverseName="images" inverseEntity="TamagochiActionData"/>
+    </entity>
+    <entity name="TamagochiLogicEnt" representedClassName="TamagochiLogicEnt" syncable="YES" codeGenerationType="class">
+        <relationship name="currentTamagochi" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TamagochiEntity" inverseName="logic" inverseEntity="TamagochiEntity"/>
+    </entity>
+</model>

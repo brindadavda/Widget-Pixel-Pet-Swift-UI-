@@ -1,0 +1,1384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA980672C69EC2400CD3103 /* LoadingSmartPetAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA980662C69EC2300CD3103 /* LoadingSmartPetAppView.swift */; };
+		4CA980692C69ECC800CD3103 /* NetworkStateMonitorConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA980682C69ECC800CD3103 /* NetworkStateMonitorConnector.swift */; };
+		4CA9806B2C69F05400CD3103 /* NoInternetMiniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA9806A2C69F05400CD3103 /* NoInternetMiniView.swift */; };
+		74135B512ACD8DA90023FA63 /* UIImage+Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D78F402AA093A5000BEA9C /* UIImage+Extensions_TamagochiVVV.swift */; };
+		742A5CBA2AAF3CB800BFEDE7 /* TamagochiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEE814D2A9049330067D5FE /* TamagochiObject.swift */; };
+		742A5CBB2AAF3E5800BFEDE7 /* TamagochiModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74A2C05A2A8FFC0100D63A00 /* TamagochiModel.xcdatamodeld */; };
+		742A5CBC2AAF3E7000BFEDE7 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B8A2A93658700CAC316 /* Date+Extensions.swift */; };
+		742A5CBD2AAF3E8400BFEDE7 /* Int+Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892BD2A97B8DD0020E44F /* Int+Extensions_TamagochiVVV.swift */; };
+		742A5CBE2AAF5E1B00BFEDE7 /* Task+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D460D52A8CCEDC0065E961 /* Task+Extensions.swift */; };
+		742A5CBF2AAF5E1C00BFEDE7 /* Task+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D460D52A8CCEDC0065E961 /* Task+Extensions.swift */; };
+		742A5CC02AAF6A6900BFEDE7 /* String+Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D9DC932A8E4F4200DAD876 /* String+Extensions_TamagochiVVV.swift */; };
+		742A5CC22AAF733E00BFEDE7 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A5CC12AAF733E00BFEDE7 /* SoundPlayer.swift */; };
+		742A5CC32AAF733E00BFEDE7 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A5CC12AAF733E00BFEDE7 /* SoundPlayer.swift */; };
+		742A5CC42AAF733E00BFEDE7 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A5CC12AAF733E00BFEDE7 /* SoundPlayer.swift */; };
+		742A5CCA2AAF7C0F00BFEDE7 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 742A5CC92AAF7C0F00BFEDE7 /* sound.mp3 */; };
+		742A5CCB2AAF7C0F00BFEDE7 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 742A5CC92AAF7C0F00BFEDE7 /* sound.mp3 */; };
+		742A5CCC2AAF7C0F00BFEDE7 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 742A5CC92AAF7C0F00BFEDE7 /* sound.mp3 */; };
+		742A5CCD2AAF85B600BFEDE7 /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D460DE2A8CF0BA0065E961 /* View+Modifiers.swift */; };
+		742A5CCE2AAF85D400BFEDE7 /* UIKit+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ACE8812AA1F20A007B863D /* UIKit+Helpers.swift */; };
+		742A5CCF2AAF85E200BFEDE7 /* MagicClockGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892BB2A9760270020E44F /* MagicClockGrid.swift */; };
+		742A5CD02AAF85F200BFEDE7 /* ClockText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86D982A8F868C00489C36 /* ClockText.swift */; };
+		742A5CD12AAF862B00BFEDE7 /* GoodDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD6AD2A94B560005BD842 /* GoodDayView.swift */; };
+		742A5CD22AAF862B00BFEDE7 /* BatteryWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B922A93B63100CAC316 /* BatteryWidgetView.swift */; };
+		742A5CD32AAF862B00BFEDE7 /* ClockTextAndDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B882A9361F400CAC316 /* ClockTextAndDate.swift */; };
+		742A5CD42AAF862B00BFEDE7 /* CalendarView_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD6AB2A949C07005BD842 /* CalendarView_TamagochiVVV.swift */; };
+		742A5CD52AAF862B00BFEDE7 /* WeatherMultipleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D28F42A94FF1F00B58163 /* WeatherMultipleView.swift */; };
+		742A5CD62AAF862B00BFEDE7 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B902A93AD2600CAC316 /* BatteryView.swift */; };
+		742A5CD72AAF862B00BFEDE7 /* WeatherTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD6B12A94EE54005BD842 /* WeatherTextView.swift */; };
+		742A5CD82AAF862B00BFEDE7 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747988FF2A95F57F0082C4A5 /* EventView.swift */; };
+		742A5CD92AAF862B00BFEDE7 /* MagicClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747989012A95F9DD0082C4A5 /* MagicClockView.swift */; };
+		742A5CDA2AAF862B00BFEDE7 /* ClockWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479890E2A96465B0082C4A5 /* ClockWidgetView.swift */; };
+		742A5CDB2AAF862B00BFEDE7 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B8E2A93822800CAC316 /* QuoteView.swift */; };
+		742A5CDC2AAF862B00BFEDE7 /* InfoWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD6AF2A94D6F9005BD842 /* InfoWidgetView.swift */; };
+		742A5CDD2AAF863E00BFEDE7 /* Protocols+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A0E80A2A9CEA510096A6E6 /* Protocols+Extensions.swift */; };
+		742A5CDE2AAF864600BFEDE7 /* WidgetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892B12A97443B0020E44F /* WidgetsViewModel.swift */; };
+		742A5CDF2AAF864E00BFEDE7 /* WidgetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892B72A9744BC0020E44F /* WidgetData.swift */; };
+		742A5CE02AAF865300BFEDE7 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892B92A9750B10020E44F /* PreviewData.swift */; };
+		742A5CE12AAF866100BFEDE7 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB2BFFD2A92CA2500C3C2FC /* Color+Extensions.swift */; };
+		742A5CE22AAF868100BFEDE7 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747989032A961F980082C4A5 /* ClockView.swift */; };
+		742A5CE32AAF868700BFEDE7 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B8C2A93807500CAC316 /* Quote.swift */; };
+		742A5CE42AAF869D00BFEDE7 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEE814B2A9048C50067D5FE /* CoreDataHelper.swift */; };
+		742A5CE52AAF86AD00BFEDE7 /* HandShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747989082A9620F70082C4A5 /* HandShape.swift */; };
+		742A5CE62AAF86AD00BFEDE7 /* TickText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479890A2A9621780082C4A5 /* TickText.swift */; };
+		742A5CE72AAF86AD00BFEDE7 /* TickHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747989062A9620BA0082C4A5 /* TickHands.swift */; };
+		742A5CE82AAF86AD00BFEDE7 /* TicksShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479890C2A9621BE0082C4A5 /* TicksShape.swift */; };
+		742A5CE92AAF86B100BFEDE7 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB446B052A967F9200F3E4A1 /* UIDevice+Extensions.swift */; };
+		742A5CEA2AAF86BF00BFEDE7 /* TamagochiLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86DA42A8F897600489C36 /* TamagochiLogic.swift */; };
+		742E1B872A935FD800CAC316 /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 742E1B862A935FD800CAC316 /* SFProText-Bold.ttf */; };
+		742E1B892A9361F400CAC316 /* ClockTextAndDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B882A9361F400CAC316 /* ClockTextAndDate.swift */; };
+		742E1B8B2A93658700CAC316 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B8A2A93658700CAC316 /* Date+Extensions.swift */; };
+		742E1B8D2A93807500CAC316 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B8C2A93807500CAC316 /* Quote.swift */; };
+		742E1B8F2A93822800CAC316 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B8E2A93822800CAC316 /* QuoteView.swift */; };
+		742E1B912A93AD2600CAC316 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B902A93AD2600CAC316 /* BatteryView.swift */; };
+		742E1B932A93B63100CAC316 /* BatteryWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B922A93B63100CAC316 /* BatteryWidgetView.swift */; };
+		7445A0A92A8B8C4C001E7DF3 /* TamagochiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7445A0A82A8B8C4C001E7DF3 /* TamagochiApp.swift */; };
+		7445A0AB2A8B8C4C001E7DF3 /* MainView_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7445A0AA2A8B8C4C001E7DF3 /* MainView_TamagochiVVV.swift */; };
+		7445A0AD2A8B8C4D001E7DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7445A0AC2A8B8C4D001E7DF3 /* Assets.xcassets */; };
+		7445A0B02A8B8C4D001E7DF3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7445A0AF2A8B8C4D001E7DF3 /* Preview Assets.xcassets */; };
+		7445A0D42A8B975A001E7DF3 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7445A0D32A8B975A001E7DF3 /* DMSans-Medium.ttf */; };
+		7452BF6A2AB07C19000FCC7A /* Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1017E2AA9E2EF00650156 /* Extensions_TamagochiVVV.swift */; };
+		745D28F52A94FF1F00B58163 /* WeatherMultipleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D28F42A94FF1F00B58163 /* WeatherMultipleView.swift */; };
+		74682C4D2AB1CE0400F615A1 /* FontsFree-Net-SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74682C4B2AB1CE0400F615A1 /* FontsFree-Net-SFProDisplay-Regular.ttf */; };
+		74682C4E2AB1CE0400F615A1 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74682C4C2AB1CE0400F615A1 /* Poppins-Medium.ttf */; };
+		747989002A95F57F0082C4A5 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747988FF2A95F57F0082C4A5 /* EventView.swift */; };
+		747989022A95F9DD0082C4A5 /* MagicClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747989012A95F9DD0082C4A5 /* MagicClockView.swift */; };
+		747989042A961F980082C4A5 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747989032A961F980082C4A5 /* ClockView.swift */; };
+		747989072A9620BA0082C4A5 /* TickHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747989062A9620BA0082C4A5 /* TickHands.swift */; };
+		747989092A9620F70082C4A5 /* HandShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747989082A9620F70082C4A5 /* HandShape.swift */; };
+		7479890B2A9621780082C4A5 /* TickText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479890A2A9621780082C4A5 /* TickText.swift */; };
+		7479890D2A9621BE0082C4A5 /* TicksShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479890C2A9621BE0082C4A5 /* TicksShape.swift */; };
+		7479890F2A96465B0082C4A5 /* ClockWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479890E2A96465B0082C4A5 /* ClockWidgetView.swift */; };
+		74813D092A98A27F007B21B8 /* UINavController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74813D082A98A27F007B21B8 /* UINavController+Extensions.swift */; };
+		74840BC42A9DECC200199775 /* TamagochiInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74840BC32A9DECC200199775 /* TamagochiInfoView.swift */; };
+		749CBC482AB06D040055D319 /* TamagochiWidgetLS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CBC472AB06D040055D319 /* TamagochiWidgetLS1.swift */; };
+		749CBC492AB06D040055D319 /* TamagochiWidgetLS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CBC472AB06D040055D319 /* TamagochiWidgetLS1.swift */; };
+		749CBC4A2AB06D040055D319 /* TamagochiWidgetLS1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749CBC472AB06D040055D319 /* TamagochiWidgetLS1.swift */; };
+		74A044D42AC41A2F00E8593E /* Enums+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A044D32AC41A2F00E8593E /* Enums+Helpers.swift */; };
+		74A044D52AC41A2F00E8593E /* Enums+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A044D32AC41A2F00E8593E /* Enums+Helpers.swift */; };
+		74A044D62AC41A2F00E8593E /* Enums+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A044D32AC41A2F00E8593E /* Enums+Helpers.swift */; };
+		74A0E7282A9C8DAB0096A6E6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74A0E7272A9C8DAB0096A6E6 /* WebKit.framework */; };
+		74A0E80B2A9CEA510096A6E6 /* Protocols+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A0E80A2A9CEA510096A6E6 /* Protocols+Extensions.swift */; };
+		74A2C05C2A8FFC0100D63A00 /* TamagochiModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74A2C05A2A8FFC0100D63A00 /* TamagochiModel.xcdatamodeld */; };
+		74ACE8822AA1F20A007B863D /* UIKit+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ACE8812AA1F20A007B863D /* UIKit+Helpers.swift */; };
+		74ACE8842AA23EF7007B863D /* Array+Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ACE8832AA23EF7007B863D /* Array+Extensions_TamagochiVVV.swift */; };
+		74AF05B52AB079BE00C0C81E /* Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1017E2AA9E2EF00650156 /* Extensions_TamagochiVVV.swift */; };
+		74B0DC582A9F31BE00CCAAE8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B0DC572A9F31BE00CCAAE8 /* GameView.swift */; };
+		74B0DC5A2A9F380100CCAAE8 /* WandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B0DC592A9F380100CCAAE8 /* WandView.swift */; };
+		74B8CDB22AA5CEF7001CE03C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B8CDB12AA5CEF7001CE03C /* WidgetKit.framework */; };
+		74B8CDB42AA5CEF7001CE03C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B8CDB32AA5CEF7001CE03C /* SwiftUI.framework */; };
+		74B8CDB72AA5CEF7001CE03C /* TamagochiWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B8CDB62AA5CEF7001CE03C /* TamagochiWidgetBundle.swift */; };
+		74B8CDB92AA5CEF7001CE03C /* TamagochiWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B8CDB82AA5CEF7001CE03C /* TamagochiWidgetLiveActivity.swift */; };
+		74B8CDBB2AA5CEF7001CE03C /* TamagochiWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B8CDBA2AA5CEF7001CE03C /* TamagochiWidget.swift */; };
+		74B8CDBE2AA5CEF9001CE03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B8CDBD2AA5CEF9001CE03C /* Assets.xcassets */; };
+		74B8CDC02AA5CEF9001CE03C /* TamagochiWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 74B8CDBC2AA5CEF7001CE03C /* TamagochiWidget.intentdefinition */; };
+		74B8CDC12AA5CEF9001CE03C /* TamagochiWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 74B8CDBC2AA5CEF7001CE03C /* TamagochiWidget.intentdefinition */; };
+		74B8CDC42AA5CEF9001CE03C /* TamagochiExtensionWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 74B8CDB02AA5CEF7001CE03C /* TamagochiExtensionWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		74B8CDC82AA5D290001CE03C /* WidgetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892B12A97443B0020E44F /* WidgetsViewModel.swift */; };
+		74B8CDCA2AA5D2C2001CE03C /* AppConstants_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86D912A8F610B00489C36 /* AppConstants_TamagochiVVV.swift */; };
+		74B8CDCB2AA5D2D2001CE03C /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B8A2A93658700CAC316 /* Date+Extensions.swift */; };
+		74B8CDCC2AA5D2E5001CE03C /* WidgetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892B72A9744BC0020E44F /* WidgetData.swift */; };
+		74B8CDCD2AA5D2E8001CE03C /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892B92A9750B10020E44F /* PreviewData.swift */; };
+		74B8CDCE2AA5D2EB001CE03C /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B8C2A93807500CAC316 /* Quote.swift */; };
+		74B8CDCF2AA5D2F6001CE03C /* TamagochiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEE814D2A9049330067D5FE /* TamagochiObject.swift */; };
+		74B8CDD02AA5D2F9001CE03C /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892B52A97449E0020E44F /* Temperature.swift */; };
+		74B8CDD12AA5D2FE001CE03C /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEE814B2A9048C50067D5FE /* CoreDataHelper.swift */; };
+		74B8CDD22AA5D30B001CE03C /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB446B052A967F9200F3E4A1 /* UIDevice+Extensions.swift */; };
+		74B8CDD32AA5D313001CE03C /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB2BFFD2A92CA2500C3C2FC /* Color+Extensions.swift */; };
+		74B8CDD42AA5D32D001CE03C /* Int+Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892BD2A97B8DD0020E44F /* Int+Extensions_TamagochiVVV.swift */; };
+		74B8CDD52AA5D33C001CE03C /* TamagochiModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74A2C05A2A8FFC0100D63A00 /* TamagochiModel.xcdatamodeld */; };
+		74B8CDD62AA5D38B001CE03C /* TamagochiLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86DA42A8F897600489C36 /* TamagochiLogic.swift */; };
+		74B8CDD72AA5D5D5001CE03C /* SmartPetSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D9DC8D2A8E3EA300DAD876 /* SmartPetSettingsViewModel.swift */; };
+		74B8CDD82AA5D5E2001CE03C /* Array+Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ACE8832AA23EF7007B863D /* Array+Extensions_TamagochiVVV.swift */; };
+		74B8CDD92AA5D630001CE03C /* TamagochiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86D9A2A8F876A00489C36 /* TamagochiViewModel.swift */; };
+		74B8CDDA2AA5D63F001CE03C /* String+Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D9DC932A8E4F4200DAD876 /* String+Extensions_TamagochiVVV.swift */; };
+		74B8CDDB2AA5D8E9001CE03C /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B8E2A93822800CAC316 /* QuoteView.swift */; };
+		74B8CDDC2AA5D8E9001CE03C /* ClockWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479890E2A96465B0082C4A5 /* ClockWidgetView.swift */; };
+		74B8CDDD2AA5D8E9001CE03C /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747988FF2A95F57F0082C4A5 /* EventView.swift */; };
+		74B8CDDE2AA5D8E9001CE03C /* ClockText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86D982A8F868C00489C36 /* ClockText.swift */; };
+		74B8CDDF2AA5D8E9001CE03C /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B902A93AD2600CAC316 /* BatteryView.swift */; };
+		74B8CDE02AA5D8E9001CE03C /* BatteryWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B922A93B63100CAC316 /* BatteryWidgetView.swift */; };
+		74B8CDE12AA5D8E9001CE03C /* GoodDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD6AD2A94B560005BD842 /* GoodDayView.swift */; };
+		74B8CDE22AA5D8E9001CE03C /* InfoWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD6AF2A94D6F9005BD842 /* InfoWidgetView.swift */; };
+		74B8CDE32AA5D8E9001CE03C /* WeatherTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD6B12A94EE54005BD842 /* WeatherTextView.swift */; };
+		74B8CDE42AA5D8E9001CE03C /* ClockTextAndDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E1B882A9361F400CAC316 /* ClockTextAndDate.swift */; };
+		74B8CDE52AA5D8E9001CE03C /* WeatherMultipleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D28F42A94FF1F00B58163 /* WeatherMultipleView.swift */; };
+		74B8CDE62AA5D8E9001CE03C /* CalendarView_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD6AB2A949C07005BD842 /* CalendarView_TamagochiVVV.swift */; };
+		74B8CDE72AA5D8E9001CE03C /* MagicClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747989012A95F9DD0082C4A5 /* MagicClockView.swift */; };
+		74B8CDE82AA5D8F1001CE03C /* TickText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479890A2A9621780082C4A5 /* TickText.swift */; };
+		74B8CDE92AA5D8F1001CE03C /* TickHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747989062A9620BA0082C4A5 /* TickHands.swift */; };
+		74B8CDEA2AA5D8F1001CE03C /* HandShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747989082A9620F70082C4A5 /* HandShape.swift */; };
+		74B8CDEB2AA5D8F1001CE03C /* TicksShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7479890C2A9621BE0082C4A5 /* TicksShape.swift */; };
+		74B8CDEC2AA5D8F1001CE03C /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747989032A961F980082C4A5 /* ClockView.swift */; };
+		74B8CDED2AA5D8FF001CE03C /* Protocols+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A0E80A2A9CEA510096A6E6 /* Protocols+Extensions.swift */; };
+		74B8CDEE2AA5D90D001CE03C /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D460DE2A8CF0BA0065E961 /* View+Modifiers.swift */; };
+		74B8CDEF2AA5D923001CE03C /* UIKit+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ACE8812AA1F20A007B863D /* UIKit+Helpers.swift */; };
+		74B8CDF02AA5D93A001CE03C /* MagicClockGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892BB2A9760270020E44F /* MagicClockGrid.swift */; };
+		74B8CDF12AA5DB44001CE03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7445A0AC2A8B8C4D001E7DF3 /* Assets.xcassets */; };
+		74BAD6AC2A949C07005BD842 /* CalendarView_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD6AB2A949C07005BD842 /* CalendarView_TamagochiVVV.swift */; };
+		74BAD6AE2A94B560005BD842 /* GoodDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD6AD2A94B560005BD842 /* GoodDayView.swift */; };
+		74BAD6B02A94D6F9005BD842 /* InfoWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD6AF2A94D6F9005BD842 /* InfoWidgetView.swift */; };
+		74BAD6B22A94EE54005BD842 /* WeatherTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BAD6B12A94EE54005BD842 /* WeatherTextView.swift */; };
+		74D460D62A8CCEDC0065E961 /* Task+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D460D52A8CCEDC0065E961 /* Task+Extensions.swift */; };
+		74D460D92A8CCFEE0065E961 /* MainMenuNavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D460D82A8CCFEE0065E961 /* MainMenuNavButton.swift */; };
+		74D460DD2A8CED0D0065E961 /* AdditionalSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D460DC2A8CED0D0065E961 /* AdditionalSettingsView.swift */; };
+		74D460DF2A8CF0BA0065E961 /* View+Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D460DE2A8CF0BA0065E961 /* View+Modifiers.swift */; };
+		74D460E12A8D19FF0065E961 /* MainSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D460E02A8D19FF0065E961 /* MainSettingsView.swift */; };
+		74D78F412AA093A5000BEA9C /* UIImage+Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D78F402AA093A5000BEA9C /* UIImage+Extensions_TamagochiVVV.swift */; };
+		74D86D922A8F610B00489C36 /* AppConstants_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86D912A8F610B00489C36 /* AppConstants_TamagochiVVV.swift */; };
+		74D86D942A8F646C00489C36 /* SegmentControl_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86D932A8F646C00489C36 /* SegmentControl_TamagochiVVV.swift */; };
+		74D86D962A8F6C3900489C36 /* InfoBGVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86D952A8F6C3900489C36 /* InfoBGVIew.swift */; };
+		74D86D992A8F868C00489C36 /* ClockText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86D982A8F868C00489C36 /* ClockText.swift */; };
+		74D86D9B2A8F876A00489C36 /* TamagochiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86D9A2A8F876A00489C36 /* TamagochiViewModel.swift */; };
+		74D86DA52A8F897600489C36 /* TamagochiLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86DA42A8F897600489C36 /* TamagochiLogic.swift */; };
+		74D892B22A97443B0020E44F /* WidgetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892B12A97443B0020E44F /* WidgetsViewModel.swift */; };
+		74D892B62A97449E0020E44F /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892B52A97449E0020E44F /* Temperature.swift */; };
+		74D892B82A9744BC0020E44F /* WidgetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892B72A9744BC0020E44F /* WidgetData.swift */; };
+		74D892BA2A9750B10020E44F /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892B92A9750B10020E44F /* PreviewData.swift */; };
+		74D892BC2A9760270020E44F /* MagicClockGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892BB2A9760270020E44F /* MagicClockGrid.swift */; };
+		74D892BE2A97B8DD0020E44F /* Int+Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892BD2A97B8DD0020E44F /* Int+Extensions_TamagochiVVV.swift */; };
+		74D9DC832A8E020900DAD876 /* WidgetInstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D9DC822A8E020900DAD876 /* WidgetInstructionView.swift */; };
+		74D9DC852A8E178700DAD876 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74D9DC842A8E178700DAD876 /* DMSans-Bold.ttf */; };
+		74D9DC872A8E1D9B00DAD876 /* TransperentBGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D9DC862A8E1D9B00DAD876 /* TransperentBGView.swift */; };
+		74D9DC892A8E217600DAD876 /* HSWidgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D9DC882A8E217600DAD876 /* HSWidgetsView.swift */; };
+		74D9DC8E2A8E3EA300DAD876 /* SmartPetSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D9DC8D2A8E3EA300DAD876 /* SmartPetSettingsViewModel.swift */; };
+		74D9DC942A8E4F4200DAD876 /* String+Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D9DC932A8E4F4200DAD876 /* String+Extensions_TamagochiVVV.swift */; };
+		74DF82032AAB694B0097BF43 /* TamagochiWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B8CDB82AA5CEF7001CE03C /* TamagochiWidgetLiveActivity.swift */; };
+		74DF82042AAB6BD60097BF43 /* TamagochiWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B8CDB82AA5CEF7001CE03C /* TamagochiWidgetLiveActivity.swift */; };
+		74DF91E02AA8BF2900A23E23 /* TamagochiWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 74B8CDBC2AA5CEF7001CE03C /* TamagochiWidget.intentdefinition */; };
+		74E0EF352AA8B9EE0013ED8A /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E0EF342AA8B9EE0013ED8A /* Intents.framework */; };
+		74E0EF382AA8B9EE0013ED8A /* MyPetIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0EF372AA8B9EE0013ED8A /* MyPetIntentHandler.swift */; };
+		74E0EF3C2AA8B9EE0013ED8A /* WidgetIntentExt.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 74E0EF332AA8B9EE0013ED8A /* WidgetIntentExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		74E0EF402AA8BA4F0013ED8A /* MyPetIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E0EF372AA8B9EE0013ED8A /* MyPetIntentHandler.swift */; };
+		74E1017F2AA9E2EF00650156 /* Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1017E2AA9E2EF00650156 /* Extensions_TamagochiVVV.swift */; };
+		74E101802AA9E49700650156 /* SmartPetSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D9DC8D2A8E3EA300DAD876 /* SmartPetSettingsViewModel.swift */; };
+		74E101812AA9E52500650156 /* AppConstants_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D86D912A8F610B00489C36 /* AppConstants_TamagochiVVV.swift */; };
+		74E101832AA9E54300650156 /* Array+Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74ACE8832AA23EF7007B863D /* Array+Extensions_TamagochiVVV.swift */; };
+		74E101852AA9E56600650156 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D892B52A97449E0020E44F /* Temperature.swift */; };
+		74E101862AAA03EA00650156 /* UIImage+Extensions_TamagochiVVV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D78F402AA093A5000BEA9C /* UIImage+Extensions_TamagochiVVV.swift */; };
+		74E101872AAA13D500650156 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74D9DC842A8E178700DAD876 /* DMSans-Bold.ttf */; };
+		74E101882AAA13D500650156 /* Caveat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB2BFFB2A92B85500C3C2FC /* Caveat-Bold.ttf */; };
+		74E101892AAA13D500650156 /* Bitter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB2BFF92A92B81E00C3C2FC /* Bitter-Regular.ttf */; };
+		74E1018A2AAA13D500650156 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBB2BFF72A9289C500C3C2FC /* SF-Pro-Display-Medium.otf */; };
+		74E1018B2AAA13D500650156 /* SFProText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 742E1B862A935FD800CAC316 /* SFProText-Bold.ttf */; };
+		74E1018C2AAA13D500650156 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7445A0D32A8B975A001E7DF3 /* DMSans-Medium.ttf */; };
+		74EB97AA2A9E379A00C92339 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EB97A92A9E379A00C92339 /* FeedView.swift */; };
+		CB446B062A967F9200F3E4A1 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB446B052A967F9200F3E4A1 /* UIDevice+Extensions.swift */; };
+		CBB2BFF82A9289C500C3C2FC /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBB2BFF72A9289C500C3C2FC /* SF-Pro-Display-Medium.otf */; };
+		CBB2BFFA2A92B81E00C3C2FC /* Bitter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB2BFF92A92B81E00C3C2FC /* Bitter-Regular.ttf */; };
+		CBB2BFFC2A92B85500C3C2FC /* Caveat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB2BFFB2A92B85500C3C2FC /* Caveat-Bold.ttf */; };
+		CBB2BFFE2A92CA2500C3C2FC /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB2BFFD2A92CA2500C3C2FC /* Color+Extensions.swift */; };
+		CBEE814C2A9048C50067D5FE /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEE814B2A9048C50067D5FE /* CoreDataHelper.swift */; };
+		CBEE814E2A9049330067D5FE /* TamagochiObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEE814D2A9049330067D5FE /* TamagochiObject.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74B8CDC22AA5CEF9001CE03C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7445A09D2A8B8C4C001E7DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B8CDAF2AA5CEF7001CE03C;
+			remoteInfo = TamagochiWidgetExtension;
+		};
+		74E0EF3A2AA8B9EE0013ED8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7445A09D2A8B8C4C001E7DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E0EF322AA8B9ED0013ED8A;
+			remoteInfo = WidgetIntentExt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		74A0E73A2A9C906B0096A6E6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				74B8CDC42AA5CEF9001CE03C /* TamagochiExtensionWidget.appex in Embed Foundation Extensions */,
+				74E0EF3C2AA8B9EE0013ED8A /* WidgetIntentExt.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E0EF2C2AA8B3120013ED8A /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4CA980662C69EC2300CD3103 /* LoadingSmartPetAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSmartPetAppView.swift; sourceTree = "<group>"; };
+		4CA980682C69ECC800CD3103 /* NetworkStateMonitorConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStateMonitorConnector.swift; sourceTree = "<group>"; };
+		4CA9806A2C69F05400CD3103 /* NoInternetMiniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetMiniView.swift; sourceTree = "<group>"; };
+		742A5CC12AAF733E00BFEDE7 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		742A5CC92AAF7C0F00BFEDE7 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		742E1B862A935FD800CAC316 /* SFProText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Bold.ttf"; sourceTree = "<group>"; };
+		742E1B882A9361F400CAC316 /* ClockTextAndDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTextAndDate.swift; sourceTree = "<group>"; };
+		742E1B8A2A93658700CAC316 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		742E1B8C2A93807500CAC316 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		742E1B8E2A93822800CAC316 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		742E1B902A93AD2600CAC316 /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
+		742E1B922A93B63100CAC316 /* BatteryWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryWidgetView.swift; sourceTree = "<group>"; };
+		7445A0A52A8B8C4C001E7DF3 /* Tamagochi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tamagochi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7445A0A82A8B8C4C001E7DF3 /* TamagochiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiApp.swift; sourceTree = "<group>"; };
+		7445A0AA2A8B8C4C001E7DF3 /* MainView_TamagochiVVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView_TamagochiVVV.swift; sourceTree = "<group>"; };
+		7445A0AC2A8B8C4D001E7DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7445A0AF2A8B8C4D001E7DF3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7445A0D32A8B975A001E7DF3 /* DMSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Medium.ttf"; sourceTree = "<group>"; };
+		745D28F42A94FF1F00B58163 /* WeatherMultipleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMultipleView.swift; sourceTree = "<group>"; };
+		74682C4B2AB1CE0400F615A1 /* FontsFree-Net-SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		74682C4C2AB1CE0400F615A1 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		747988FF2A95F57F0082C4A5 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		747989012A95F9DD0082C4A5 /* MagicClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicClockView.swift; sourceTree = "<group>"; };
+		747989032A961F980082C4A5 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		747989062A9620BA0082C4A5 /* TickHands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickHands.swift; sourceTree = "<group>"; };
+		747989082A9620F70082C4A5 /* HandShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandShape.swift; sourceTree = "<group>"; };
+		7479890A2A9621780082C4A5 /* TickText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickText.swift; sourceTree = "<group>"; };
+		7479890C2A9621BE0082C4A5 /* TicksShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicksShape.swift; sourceTree = "<group>"; };
+		7479890E2A96465B0082C4A5 /* ClockWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockWidgetView.swift; sourceTree = "<group>"; };
+		74813D082A98A27F007B21B8 /* UINavController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavController+Extensions.swift"; sourceTree = "<group>"; };
+		74840BC32A9DECC200199775 /* TamagochiInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiInfoView.swift; sourceTree = "<group>"; };
+		749CBC472AB06D040055D319 /* TamagochiWidgetLS1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiWidgetLS1.swift; sourceTree = "<group>"; };
+		74A044D32AC41A2F00E8593E /* Enums+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Enums+Helpers.swift"; sourceTree = "<group>"; };
+		74A0E71F2A9C8D970096A6E6 /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		74A0E7202A9C8D970096A6E6 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		74A0E7252A9C8DA60096A6E6 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		74A0E7272A9C8DAB0096A6E6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		74A0E7292A9C8DB00096A6E6 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		74A0E80A2A9CEA510096A6E6 /* Protocols+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocols+Extensions.swift"; sourceTree = "<group>"; };
+		74A2C05B2A8FFC0100D63A00 /* TamagochiModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TamagochiModel.xcdatamodel; sourceTree = "<group>"; };
+		74ACE8812AA1F20A007B863D /* UIKit+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Helpers.swift"; sourceTree = "<group>"; };
+		74ACE8832AA23EF7007B863D /* Array+Extensions_TamagochiVVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions_TamagochiVVV.swift"; sourceTree = "<group>"; };
+		74B0DC572A9F31BE00CCAAE8 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		74B0DC592A9F380100CCAAE8 /* WandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WandView.swift; sourceTree = "<group>"; };
+		74B8CDB02AA5CEF7001CE03C /* TamagochiExtensionWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TamagochiExtensionWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B8CDB12AA5CEF7001CE03C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		74B8CDB32AA5CEF7001CE03C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		74B8CDB62AA5CEF7001CE03C /* TamagochiWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiWidgetBundle.swift; sourceTree = "<group>"; };
+		74B8CDB82AA5CEF7001CE03C /* TamagochiWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		74B8CDBA2AA5CEF7001CE03C /* TamagochiWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiWidget.swift; sourceTree = "<group>"; };
+		74B8CDBC2AA5CEF7001CE03C /* TamagochiWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TamagochiWidget.intentdefinition; sourceTree = "<group>"; };
+		74B8CDBD2AA5CEF9001CE03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74B8CDBF2AA5CEF9001CE03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BAD6AB2A949C07005BD842 /* CalendarView_TamagochiVVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView_TamagochiVVV.swift; sourceTree = "<group>"; };
+		74BAD6AD2A94B560005BD842 /* GoodDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodDayView.swift; sourceTree = "<group>"; };
+		74BAD6AF2A94D6F9005BD842 /* InfoWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWidgetView.swift; sourceTree = "<group>"; };
+		74BAD6B12A94EE54005BD842 /* WeatherTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTextView.swift; sourceTree = "<group>"; };
+		74D460D52A8CCEDC0065E961 /* Task+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+Extensions.swift"; sourceTree = "<group>"; };
+		74D460D82A8CCFEE0065E961 /* MainMenuNavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuNavButton.swift; sourceTree = "<group>"; };
+		74D460DC2A8CED0D0065E961 /* AdditionalSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalSettingsView.swift; sourceTree = "<group>"; };
+		74D460DE2A8CF0BA0065E961 /* View+Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Modifiers.swift"; sourceTree = "<group>"; };
+		74D460E02A8D19FF0065E961 /* MainSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSettingsView.swift; sourceTree = "<group>"; };
+		74D78F402AA093A5000BEA9C /* UIImage+Extensions_TamagochiVVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions_TamagochiVVV.swift"; sourceTree = "<group>"; };
+		74D86D912A8F610B00489C36 /* AppConstants_TamagochiVVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants_TamagochiVVV.swift; sourceTree = "<group>"; };
+		74D86D932A8F646C00489C36 /* SegmentControl_TamagochiVVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControl_TamagochiVVV.swift; sourceTree = "<group>"; };
+		74D86D952A8F6C3900489C36 /* InfoBGVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBGVIew.swift; sourceTree = "<group>"; };
+		74D86D982A8F868C00489C36 /* ClockText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockText.swift; sourceTree = "<group>"; };
+		74D86D9A2A8F876A00489C36 /* TamagochiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiViewModel.swift; sourceTree = "<group>"; };
+		74D86DA42A8F897600489C36 /* TamagochiLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiLogic.swift; sourceTree = "<group>"; };
+		74D892B12A97443B0020E44F /* WidgetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsViewModel.swift; sourceTree = "<group>"; };
+		74D892B52A97449E0020E44F /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		74D892B72A9744BC0020E44F /* WidgetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetData.swift; sourceTree = "<group>"; };
+		74D892B92A9750B10020E44F /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		74D892BB2A9760270020E44F /* MagicClockGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicClockGrid.swift; sourceTree = "<group>"; };
+		74D892BD2A97B8DD0020E44F /* Int+Extensions_TamagochiVVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions_TamagochiVVV.swift"; sourceTree = "<group>"; };
+		74D9DC822A8E020900DAD876 /* WidgetInstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetInstructionView.swift; sourceTree = "<group>"; };
+		74D9DC842A8E178700DAD876 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		74D9DC862A8E1D9B00DAD876 /* TransperentBGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransperentBGView.swift; sourceTree = "<group>"; };
+		74D9DC882A8E217600DAD876 /* HSWidgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSWidgetsView.swift; sourceTree = "<group>"; };
+		74D9DC8D2A8E3EA300DAD876 /* SmartPetSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPetSettingsViewModel.swift; sourceTree = "<group>"; };
+		74D9DC8F2A8E41D900DAD876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		74D9DC902A8E4B4000DAD876 /* Tamagochi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tamagochi.entitlements; sourceTree = "<group>"; };
+		74D9DC932A8E4F4200DAD876 /* String+Extensions_TamagochiVVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions_TamagochiVVV.swift"; sourceTree = "<group>"; };
+		74DD6DF62AA7314200F5DFB4 /* TamagochiWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TamagochiWidgetExtension.entitlements; sourceTree = "<group>"; };
+		74E0EF332AA8B9EE0013ED8A /* WidgetIntentExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetIntentExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E0EF342AA8B9EE0013ED8A /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		74E0EF372AA8B9EE0013ED8A /* MyPetIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPetIntentHandler.swift; sourceTree = "<group>"; };
+		74E0EF392AA8B9EE0013ED8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E1017E2AA9E2EF00650156 /* Extensions_TamagochiVVV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions_TamagochiVVV.swift; sourceTree = "<group>"; };
+		74E101822AA9E52C00650156 /* WidgetIntentExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetIntentExt.entitlements; sourceTree = "<group>"; };
+		74EB97A92A9E379A00C92339 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		CB446B052A967F9200F3E4A1 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		CBB2BFF72A9289C500C3C2FC /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		CBB2BFF92A92B81E00C3C2FC /* Bitter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Regular.ttf"; sourceTree = "<group>"; };
+		CBB2BFFB2A92B85500C3C2FC /* Caveat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Caveat-Bold.ttf"; sourceTree = "<group>"; };
+		CBB2BFFD2A92CA2500C3C2FC /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		CBEE814B2A9048C50067D5FE /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		CBEE814D2A9049330067D5FE /* TamagochiObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiObject.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7445A0A22A8B8C4C001E7DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A0E7282A9C8DAB0096A6E6 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B8CDAD2AA5CEF7001CE03C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B8CDB42AA5CEF7001CE03C /* SwiftUI.framework in Frameworks */,
+				74B8CDB22AA5CEF7001CE03C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E0EF302AA8B9ED0013ED8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E0EF352AA8B9EE0013ED8A /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7445A09C2A8B8C4C001E7DF3 = {
+			isa = PBXGroup;
+			children = (
+				74DD6DF62AA7314200F5DFB4 /* TamagochiWidgetExtension.entitlements */,
+				7445A0A72A8B8C4C001E7DF3 /* Tamagochi */,
+				74B8CDB52AA5CEF7001CE03C /* TamagochiWidget */,
+				74E0EF362AA8B9EE0013ED8A /* WidgetIntentExt */,
+				7445A0A62A8B8C4C001E7DF3 /* Products */,
+				74A0E71E2A9C8D970096A6E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7445A0A62A8B8C4C001E7DF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7445A0A52A8B8C4C001E7DF3 /* Tamagochi.app */,
+				74B8CDB02AA5CEF7001CE03C /* TamagochiExtensionWidget.appex */,
+				74E0EF332AA8B9EE0013ED8A /* WidgetIntentExt.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7445A0A72A8B8C4C001E7DF3 /* Tamagochi */ = {
+			isa = PBXGroup;
+			children = (
+				74A2C0592A8FFB8000D63A00 /* Core Data */,
+				74D86D9C2A8F879600489C36 /* Logic */,
+				74D9DC902A8E4B4000DAD876 /* Tamagochi.entitlements */,
+				74D9DC8F2A8E41D900DAD876 /* Info.plist */,
+				74D9DC8A2A8E3E8200DAD876 /* VIewModels */,
+				74D460D42A8CCEC10065E961 /* Extensions */,
+				74D460D32A8CCB020065E961 /* Views */,
+				7445A0D22A8B9711001E7DF3 /* Resources */,
+				7445A0A82A8B8C4C001E7DF3 /* TamagochiApp.swift */,
+				7445A0AA2A8B8C4C001E7DF3 /* MainView_TamagochiVVV.swift */,
+				7445A0AC2A8B8C4D001E7DF3 /* Assets.xcassets */,
+				7445A0AE2A8B8C4D001E7DF3 /* Preview Content */,
+				74D86D912A8F610B00489C36 /* AppConstants_TamagochiVVV.swift */,
+				4CA980662C69EC2300CD3103 /* LoadingSmartPetAppView.swift */,
+				4CA9806A2C69F05400CD3103 /* NoInternetMiniView.swift */,
+			);
+			path = Tamagochi;
+			sourceTree = "<group>";
+		};
+		7445A0AE2A8B8C4D001E7DF3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7445A0AF2A8B8C4D001E7DF3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7445A0D22A8B9711001E7DF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74682C4B2AB1CE0400F615A1 /* FontsFree-Net-SFProDisplay-Regular.ttf */,
+				74682C4C2AB1CE0400F615A1 /* Poppins-Medium.ttf */,
+				742A5CC92AAF7C0F00BFEDE7 /* sound.mp3 */,
+				742E1B862A935FD800CAC316 /* SFProText-Bold.ttf */,
+				CBB2BFFB2A92B85500C3C2FC /* Caveat-Bold.ttf */,
+				CBB2BFF92A92B81E00C3C2FC /* Bitter-Regular.ttf */,
+				CBB2BFF72A9289C500C3C2FC /* SF-Pro-Display-Medium.otf */,
+				74D9DC842A8E178700DAD876 /* DMSans-Bold.ttf */,
+				7445A0D32A8B975A001E7DF3 /* DMSans-Medium.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		747989052A96209E0082C4A5 /* ClockView */ = {
+			isa = PBXGroup;
+			children = (
+				747989032A961F980082C4A5 /* ClockView.swift */,
+				747989062A9620BA0082C4A5 /* TickHands.swift */,
+				747989082A9620F70082C4A5 /* HandShape.swift */,
+				7479890A2A9621780082C4A5 /* TickText.swift */,
+				7479890C2A9621BE0082C4A5 /* TicksShape.swift */,
+			);
+			path = ClockView;
+			sourceTree = "<group>";
+		};
+		74A0E71E2A9C8D970096A6E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74A0E7292A9C8DB00096A6E6 /* iAd.framework */,
+				74A0E7272A9C8DAB0096A6E6 /* WebKit.framework */,
+				74A0E7252A9C8DA60096A6E6 /* AppTrackingTransparency.framework */,
+				74A0E71F2A9C8D970096A6E6 /* AdServices.framework */,
+				74A0E7202A9C8D970096A6E6 /* AdSupport.framework */,
+				74B8CDB12AA5CEF7001CE03C /* WidgetKit.framework */,
+				74B8CDB32AA5CEF7001CE03C /* SwiftUI.framework */,
+				74E0EF342AA8B9EE0013ED8A /* Intents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74A2C0592A8FFB8000D63A00 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				74A2C05A2A8FFC0100D63A00 /* TamagochiModel.xcdatamodeld */,
+				CBEE814B2A9048C50067D5FE /* CoreDataHelper.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		74B8CDB52AA5CEF7001CE03C /* TamagochiWidget */ = {
+			isa = PBXGroup;
+			children = (
+				74B8CDB62AA5CEF7001CE03C /* TamagochiWidgetBundle.swift */,
+				74B8CDB82AA5CEF7001CE03C /* TamagochiWidgetLiveActivity.swift */,
+				74B8CDBA2AA5CEF7001CE03C /* TamagochiWidget.swift */,
+				749CBC472AB06D040055D319 /* TamagochiWidgetLS1.swift */,
+				74B8CDBC2AA5CEF7001CE03C /* TamagochiWidget.intentdefinition */,
+				74B8CDBD2AA5CEF9001CE03C /* Assets.xcassets */,
+				74B8CDBF2AA5CEF9001CE03C /* Info.plist */,
+				74E1017E2AA9E2EF00650156 /* Extensions_TamagochiVVV.swift */,
+			);
+			path = TamagochiWidget;
+			sourceTree = "<group>";
+		};
+		74D460D32A8CCB020065E961 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74EB97A82A9E36B000C92339 /* TamagochiInfo */,
+				747989052A96209E0082C4A5 /* ClockView */,
+				74D86D972A8F861800489C36 /* WidgetViews */,
+				74D460D72A8CCF3E0065E961 /* MainScreen */,
+				74D86D932A8F646C00489C36 /* SegmentControl_TamagochiVVV.swift */,
+				74D86D952A8F6C3900489C36 /* InfoBGVIew.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74D460D42A8CCEC10065E961 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74D460D52A8CCEDC0065E961 /* Task+Extensions.swift */,
+				74D460DE2A8CF0BA0065E961 /* View+Modifiers.swift */,
+				74D9DC932A8E4F4200DAD876 /* String+Extensions_TamagochiVVV.swift */,
+				CBB2BFFD2A92CA2500C3C2FC /* Color+Extensions.swift */,
+				74A044D32AC41A2F00E8593E /* Enums+Helpers.swift */,
+				742E1B8A2A93658700CAC316 /* Date+Extensions.swift */,
+				CB446B052A967F9200F3E4A1 /* UIDevice+Extensions.swift */,
+				74D892BD2A97B8DD0020E44F /* Int+Extensions_TamagochiVVV.swift */,
+				74813D082A98A27F007B21B8 /* UINavController+Extensions.swift */,
+				74A0E80A2A9CEA510096A6E6 /* Protocols+Extensions.swift */,
+				74D78F402AA093A5000BEA9C /* UIImage+Extensions_TamagochiVVV.swift */,
+				74ACE8812AA1F20A007B863D /* UIKit+Helpers.swift */,
+				74ACE8832AA23EF7007B863D /* Array+Extensions_TamagochiVVV.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		74D460D72A8CCF3E0065E961 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				74D460D82A8CCFEE0065E961 /* MainMenuNavButton.swift */,
+				74D460DC2A8CED0D0065E961 /* AdditionalSettingsView.swift */,
+				74D460E02A8D19FF0065E961 /* MainSettingsView.swift */,
+				74D9DC822A8E020900DAD876 /* WidgetInstructionView.swift */,
+				74D9DC862A8E1D9B00DAD876 /* TransperentBGView.swift */,
+				74D9DC882A8E217600DAD876 /* HSWidgetsView.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		74D86D972A8F861800489C36 /* WidgetViews */ = {
+			isa = PBXGroup;
+			children = (
+				74D86D982A8F868C00489C36 /* ClockText.swift */,
+				742E1B882A9361F400CAC316 /* ClockTextAndDate.swift */,
+				742E1B8E2A93822800CAC316 /* QuoteView.swift */,
+				742E1B902A93AD2600CAC316 /* BatteryView.swift */,
+				742E1B922A93B63100CAC316 /* BatteryWidgetView.swift */,
+				74BAD6AB2A949C07005BD842 /* CalendarView_TamagochiVVV.swift */,
+				74BAD6AD2A94B560005BD842 /* GoodDayView.swift */,
+				74BAD6AF2A94D6F9005BD842 /* InfoWidgetView.swift */,
+				74BAD6B12A94EE54005BD842 /* WeatherTextView.swift */,
+				745D28F42A94FF1F00B58163 /* WeatherMultipleView.swift */,
+				747988FF2A95F57F0082C4A5 /* EventView.swift */,
+				747989012A95F9DD0082C4A5 /* MagicClockView.swift */,
+				7479890E2A96465B0082C4A5 /* ClockWidgetView.swift */,
+			);
+			path = WidgetViews;
+			sourceTree = "<group>";
+		};
+		74D86D9C2A8F879600489C36 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				74D86DA42A8F897600489C36 /* TamagochiLogic.swift */,
+				CBEE814D2A9049330067D5FE /* TamagochiObject.swift */,
+				742E1B8C2A93807500CAC316 /* Quote.swift */,
+				74D892B52A97449E0020E44F /* Temperature.swift */,
+				74D892B72A9744BC0020E44F /* WidgetData.swift */,
+				74D892B92A9750B10020E44F /* PreviewData.swift */,
+				74D892BB2A9760270020E44F /* MagicClockGrid.swift */,
+				742A5CC12AAF733E00BFEDE7 /* SoundPlayer.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		74D9DC8A2A8E3E8200DAD876 /* VIewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74D9DC8D2A8E3EA300DAD876 /* SmartPetSettingsViewModel.swift */,
+				74D86D9A2A8F876A00489C36 /* TamagochiViewModel.swift */,
+				74D892B12A97443B0020E44F /* WidgetsViewModel.swift */,
+				4CA980682C69ECC800CD3103 /* NetworkStateMonitorConnector.swift */,
+			);
+			path = VIewModels;
+			sourceTree = "<group>";
+		};
+		74E0EF362AA8B9EE0013ED8A /* WidgetIntentExt */ = {
+			isa = PBXGroup;
+			children = (
+				74E101822AA9E52C00650156 /* WidgetIntentExt.entitlements */,
+				74E0EF372AA8B9EE0013ED8A /* MyPetIntentHandler.swift */,
+				74E0EF392AA8B9EE0013ED8A /* Info.plist */,
+			);
+			path = WidgetIntentExt;
+			sourceTree = "<group>";
+		};
+		74EB97A82A9E36B000C92339 /* TamagochiInfo */ = {
+			isa = PBXGroup;
+			children = (
+				74840BC32A9DECC200199775 /* TamagochiInfoView.swift */,
+				74EB97A92A9E379A00C92339 /* FeedView.swift */,
+				74B0DC572A9F31BE00CCAAE8 /* GameView.swift */,
+				74B0DC592A9F380100CCAAE8 /* WandView.swift */,
+			);
+			path = TamagochiInfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7445A0A42A8B8C4C001E7DF3 /* Tamagochi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7445A0C92A8B8C4D001E7DF3 /* Build configuration list for PBXNativeTarget "Tamagochi" */;
+			buildPhases = (
+				7445A0A12A8B8C4C001E7DF3 /* Sources */,
+				7445A0A22A8B8C4C001E7DF3 /* Frameworks */,
+				7445A0A32A8B8C4C001E7DF3 /* Resources */,
+				74A0E73A2A9C906B0096A6E6 /* Embed Foundation Extensions */,
+				74E0EF2C2AA8B3120013ED8A /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B8CDC32AA5CEF9001CE03C /* PBXTargetDependency */,
+				74E0EF3B2AA8B9EE0013ED8A /* PBXTargetDependency */,
+			);
+			name = Tamagochi;
+			packageProductDependencies = (
+			);
+			productName = Tamagochi;
+			productReference = 7445A0A52A8B8C4C001E7DF3 /* Tamagochi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74B8CDAF2AA5CEF7001CE03C /* TamagochiExtensionWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B8CDC72AA5CEF9001CE03C /* Build configuration list for PBXNativeTarget "TamagochiExtensionWidget" */;
+			buildPhases = (
+				74B8CDAC2AA5CEF7001CE03C /* Sources */,
+				74B8CDAD2AA5CEF7001CE03C /* Frameworks */,
+				74B8CDAE2AA5CEF7001CE03C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TamagochiExtensionWidget;
+			packageProductDependencies = (
+			);
+			productName = TamagochiWidgetExtension;
+			productReference = 74B8CDB02AA5CEF7001CE03C /* TamagochiExtensionWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		74E0EF322AA8B9ED0013ED8A /* WidgetIntentExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74E0EF3D2AA8B9EE0013ED8A /* Build configuration list for PBXNativeTarget "WidgetIntentExt" */;
+			buildPhases = (
+				74E0EF2F2AA8B9ED0013ED8A /* Sources */,
+				74E0EF302AA8B9ED0013ED8A /* Frameworks */,
+				74E0EF312AA8B9ED0013ED8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetIntentExt;
+			packageProductDependencies = (
+			);
+			productName = WidgetIntentExt;
+			productReference = 74E0EF332AA8B9EE0013ED8A /* WidgetIntentExt.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7445A09D2A8B8C4C001E7DF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7445A0A42A8B8C4C001E7DF3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					74B8CDAF2AA5CEF7001CE03C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					74E0EF322AA8B9ED0013ED8A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7445A0A02A8B8C4C001E7DF3 /* Build configuration list for PBXProject "Tamagochi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				he,
+				ar,
+				el,
+				"zh-Hans",
+				ja,
+				uk,
+				nb,
+				"en-GB",
+				es,
+				sl,
+				da,
+				"es-419",
+				it,
+				sk,
+				"fr-CA",
+				sr,
+				ms,
+				sv,
+				cs,
+				ko,
+				"zh-Hant",
+				hu,
+				"en-AU",
+				tr,
+				pl,
+				"pt-BR",
+				vi,
+				lv,
+				lt,
+				ru,
+				fr,
+				fi,
+				id,
+				nl,
+				th,
+				"pt-PT",
+				ro,
+				hr,
+				hi,
+				ca,
+				"en-IN",
+			);
+			mainGroup = 7445A09C2A8B8C4C001E7DF3;
+			packageReferences = (
+			);
+			productRefGroup = 7445A0A62A8B8C4C001E7DF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7445A0A42A8B8C4C001E7DF3 /* Tamagochi */,
+				74B8CDAF2AA5CEF7001CE03C /* TamagochiExtensionWidget */,
+				74E0EF322AA8B9ED0013ED8A /* WidgetIntentExt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7445A0A32A8B8C4C001E7DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7445A0B02A8B8C4D001E7DF3 /* Preview Assets.xcassets in Resources */,
+				742A5CCA2AAF7C0F00BFEDE7 /* sound.mp3 in Resources */,
+				74682C4D2AB1CE0400F615A1 /* FontsFree-Net-SFProDisplay-Regular.ttf in Resources */,
+				CBB2BFFC2A92B85500C3C2FC /* Caveat-Bold.ttf in Resources */,
+				7445A0AD2A8B8C4D001E7DF3 /* Assets.xcassets in Resources */,
+				742E1B872A935FD800CAC316 /* SFProText-Bold.ttf in Resources */,
+				74682C4E2AB1CE0400F615A1 /* Poppins-Medium.ttf in Resources */,
+				7445A0D42A8B975A001E7DF3 /* DMSans-Medium.ttf in Resources */,
+				CBB2BFFA2A92B81E00C3C2FC /* Bitter-Regular.ttf in Resources */,
+				74D9DC852A8E178700DAD876 /* DMSans-Bold.ttf in Resources */,
+				CBB2BFF82A9289C500C3C2FC /* SF-Pro-Display-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B8CDAE2AA5CEF7001CE03C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74E1018A2AAA13D500650156 /* SF-Pro-Display-Medium.otf in Resources */,
+				742A5CCB2AAF7C0F00BFEDE7 /* sound.mp3 in Resources */,
+				74E1018C2AAA13D500650156 /* DMSans-Medium.ttf in Resources */,
+				74B8CDF12AA5DB44001CE03C /* Assets.xcassets in Resources */,
+				74E101882AAA13D500650156 /* Caveat-Bold.ttf in Resources */,
+				74E101872AAA13D500650156 /* DMSans-Bold.ttf in Resources */,
+				74E101892AAA13D500650156 /* Bitter-Regular.ttf in Resources */,
+				74B8CDBE2AA5CEF9001CE03C /* Assets.xcassets in Resources */,
+				74E1018B2AAA13D500650156 /* SFProText-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E0EF312AA8B9ED0013ED8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742A5CCC2AAF7C0F00BFEDE7 /* sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7445A0A12A8B8C4C001E7DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742A5CC22AAF733E00BFEDE7 /* SoundPlayer.swift in Sources */,
+				74D86D992A8F868C00489C36 /* ClockText.swift in Sources */,
+				7445A0AB2A8B8C4C001E7DF3 /* MainView_TamagochiVVV.swift in Sources */,
+				74ACE8842AA23EF7007B863D /* Array+Extensions_TamagochiVVV.swift in Sources */,
+				74D9DC942A8E4F4200DAD876 /* String+Extensions_TamagochiVVV.swift in Sources */,
+				CBEE814C2A9048C50067D5FE /* CoreDataHelper.swift in Sources */,
+				74D892BC2A9760270020E44F /* MagicClockGrid.swift in Sources */,
+				CBB2BFFE2A92CA2500C3C2FC /* Color+Extensions.swift in Sources */,
+				745D28F52A94FF1F00B58163 /* WeatherMultipleView.swift in Sources */,
+				74840BC42A9DECC200199775 /* TamagochiInfoView.swift in Sources */,
+				74A2C05C2A8FFC0100D63A00 /* TamagochiModel.xcdatamodeld in Sources */,
+				74D460DF2A8CF0BA0065E961 /* View+Modifiers.swift in Sources */,
+				74D892BA2A9750B10020E44F /* PreviewData.swift in Sources */,
+				742E1B932A93B63100CAC316 /* BatteryWidgetView.swift in Sources */,
+				7479890D2A9621BE0082C4A5 /* TicksShape.swift in Sources */,
+				749CBC482AB06D040055D319 /* TamagochiWidgetLS1.swift in Sources */,
+				742E1B8F2A93822800CAC316 /* QuoteView.swift in Sources */,
+				74D460D92A8CCFEE0065E961 /* MainMenuNavButton.swift in Sources */,
+				4CA980692C69ECC800CD3103 /* NetworkStateMonitorConnector.swift in Sources */,
+				747989072A9620BA0082C4A5 /* TickHands.swift in Sources */,
+				7479890F2A96465B0082C4A5 /* ClockWidgetView.swift in Sources */,
+				74D460DD2A8CED0D0065E961 /* AdditionalSettingsView.swift in Sources */,
+				74D86D9B2A8F876A00489C36 /* TamagochiViewModel.swift in Sources */,
+				747989042A961F980082C4A5 /* ClockView.swift in Sources */,
+				CBEE814E2A9049330067D5FE /* TamagochiObject.swift in Sources */,
+				74D460D62A8CCEDC0065E961 /* Task+Extensions.swift in Sources */,
+				7452BF6A2AB07C19000FCC7A /* Extensions_TamagochiVVV.swift in Sources */,
+				742E1B912A93AD2600CAC316 /* BatteryView.swift in Sources */,
+				74D460E12A8D19FF0065E961 /* MainSettingsView.swift in Sources */,
+				7445A0A92A8B8C4C001E7DF3 /* TamagochiApp.swift in Sources */,
+				74D9DC872A8E1D9B00DAD876 /* TransperentBGView.swift in Sources */,
+				74EB97AA2A9E379A00C92339 /* FeedView.swift in Sources */,
+				74D9DC8E2A8E3EA300DAD876 /* SmartPetSettingsViewModel.swift in Sources */,
+				74BAD6AC2A949C07005BD842 /* CalendarView_TamagochiVVV.swift in Sources */,
+				4CA980672C69EC2400CD3103 /* LoadingSmartPetAppView.swift in Sources */,
+				747989092A9620F70082C4A5 /* HandShape.swift in Sources */,
+				7479890B2A9621780082C4A5 /* TickText.swift in Sources */,
+				CB446B062A967F9200F3E4A1 /* UIDevice+Extensions.swift in Sources */,
+				74BAD6AE2A94B560005BD842 /* GoodDayView.swift in Sources */,
+				74D86D962A8F6C3900489C36 /* InfoBGVIew.swift in Sources */,
+				742E1B8D2A93807500CAC316 /* Quote.swift in Sources */,
+				74A0E80B2A9CEA510096A6E6 /* Protocols+Extensions.swift in Sources */,
+				742E1B8B2A93658700CAC316 /* Date+Extensions.swift in Sources */,
+				74B8CDC12AA5CEF9001CE03C /* TamagochiWidget.intentdefinition in Sources */,
+				74D86D922A8F610B00489C36 /* AppConstants_TamagochiVVV.swift in Sources */,
+				747989022A95F9DD0082C4A5 /* MagicClockView.swift in Sources */,
+				74BAD6B02A94D6F9005BD842 /* InfoWidgetView.swift in Sources */,
+				74BAD6B22A94EE54005BD842 /* WeatherTextView.swift in Sources */,
+				74D892B62A97449E0020E44F /* Temperature.swift in Sources */,
+				74813D092A98A27F007B21B8 /* UINavController+Extensions.swift in Sources */,
+				747989002A95F57F0082C4A5 /* EventView.swift in Sources */,
+				74DF82032AAB694B0097BF43 /* TamagochiWidgetLiveActivity.swift in Sources */,
+				74D892B82A9744BC0020E44F /* WidgetData.swift in Sources */,
+				74A044D42AC41A2F00E8593E /* Enums+Helpers.swift in Sources */,
+				742E1B892A9361F400CAC316 /* ClockTextAndDate.swift in Sources */,
+				74ACE8822AA1F20A007B863D /* UIKit+Helpers.swift in Sources */,
+				74D86DA52A8F897600489C36 /* TamagochiLogic.swift in Sources */,
+				74B0DC582A9F31BE00CCAAE8 /* GameView.swift in Sources */,
+				74D892B22A97443B0020E44F /* WidgetsViewModel.swift in Sources */,
+				74D9DC832A8E020900DAD876 /* WidgetInstructionView.swift in Sources */,
+				74D892BE2A97B8DD0020E44F /* Int+Extensions_TamagochiVVV.swift in Sources */,
+				74D9DC892A8E217600DAD876 /* HSWidgetsView.swift in Sources */,
+				74D78F412AA093A5000BEA9C /* UIImage+Extensions_TamagochiVVV.swift in Sources */,
+				4CA9806B2C69F05400CD3103 /* NoInternetMiniView.swift in Sources */,
+				74B0DC5A2A9F380100CCAAE8 /* WandView.swift in Sources */,
+				74D86D942A8F646C00489C36 /* SegmentControl_TamagochiVVV.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B8CDAC2AA5CEF7001CE03C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742A5CC32AAF733E00BFEDE7 /* SoundPlayer.swift in Sources */,
+				74B8CDE32AA5D8E9001CE03C /* WeatherTextView.swift in Sources */,
+				74B8CDCF2AA5D2F6001CE03C /* TamagochiObject.swift in Sources */,
+				74B8CDDC2AA5D8E9001CE03C /* ClockWidgetView.swift in Sources */,
+				74A044D52AC41A2F00E8593E /* Enums+Helpers.swift in Sources */,
+				74B8CDE12AA5D8E9001CE03C /* GoodDayView.swift in Sources */,
+				74E0EF402AA8BA4F0013ED8A /* MyPetIntentHandler.swift in Sources */,
+				74B8CDEE2AA5D90D001CE03C /* View+Modifiers.swift in Sources */,
+				74B8CDCD2AA5D2E8001CE03C /* PreviewData.swift in Sources */,
+				74B8CDED2AA5D8FF001CE03C /* Protocols+Extensions.swift in Sources */,
+				74B8CDE52AA5D8E9001CE03C /* WeatherMultipleView.swift in Sources */,
+				74B8CDE82AA5D8F1001CE03C /* TickText.swift in Sources */,
+				74B8CDC02AA5CEF9001CE03C /* TamagochiWidget.intentdefinition in Sources */,
+				74B8CDD52AA5D33C001CE03C /* TamagochiModel.xcdatamodeld in Sources */,
+				74B8CDD42AA5D32D001CE03C /* Int+Extensions_TamagochiVVV.swift in Sources */,
+				74B8CDCC2AA5D2E5001CE03C /* WidgetData.swift in Sources */,
+				74B8CDE92AA5D8F1001CE03C /* TickHands.swift in Sources */,
+				74E101862AAA03EA00650156 /* UIImage+Extensions_TamagochiVVV.swift in Sources */,
+				74B8CDE02AA5D8E9001CE03C /* BatteryWidgetView.swift in Sources */,
+				74B8CDCB2AA5D2D2001CE03C /* Date+Extensions.swift in Sources */,
+				74B8CDBB2AA5CEF7001CE03C /* TamagochiWidget.swift in Sources */,
+				74B8CDB92AA5CEF7001CE03C /* TamagochiWidgetLiveActivity.swift in Sources */,
+				74B8CDE22AA5D8E9001CE03C /* InfoWidgetView.swift in Sources */,
+				74B8CDE62AA5D8E9001CE03C /* CalendarView_TamagochiVVV.swift in Sources */,
+				74B8CDC82AA5D290001CE03C /* WidgetsViewModel.swift in Sources */,
+				74B8CDD82AA5D5E2001CE03C /* Array+Extensions_TamagochiVVV.swift in Sources */,
+				74B8CDEF2AA5D923001CE03C /* UIKit+Helpers.swift in Sources */,
+				74B8CDD22AA5D30B001CE03C /* UIDevice+Extensions.swift in Sources */,
+				74B8CDD62AA5D38B001CE03C /* TamagochiLogic.swift in Sources */,
+				749CBC492AB06D040055D319 /* TamagochiWidgetLS1.swift in Sources */,
+				74B8CDDF2AA5D8E9001CE03C /* BatteryView.swift in Sources */,
+				74B8CDCA2AA5D2C2001CE03C /* AppConstants_TamagochiVVV.swift in Sources */,
+				74B8CDEA2AA5D8F1001CE03C /* HandShape.swift in Sources */,
+				74B8CDDD2AA5D8E9001CE03C /* EventView.swift in Sources */,
+				74B8CDD92AA5D630001CE03C /* TamagochiViewModel.swift in Sources */,
+				74B8CDD02AA5D2F9001CE03C /* Temperature.swift in Sources */,
+				74B8CDD32AA5D313001CE03C /* Color+Extensions.swift in Sources */,
+				74B8CDD72AA5D5D5001CE03C /* SmartPetSettingsViewModel.swift in Sources */,
+				74B8CDEC2AA5D8F1001CE03C /* ClockView.swift in Sources */,
+				74B8CDF02AA5D93A001CE03C /* MagicClockGrid.swift in Sources */,
+				74B8CDE72AA5D8E9001CE03C /* MagicClockView.swift in Sources */,
+				74B8CDE42AA5D8E9001CE03C /* ClockTextAndDate.swift in Sources */,
+				74B8CDD12AA5D2FE001CE03C /* CoreDataHelper.swift in Sources */,
+				74B8CDDE2AA5D8E9001CE03C /* ClockText.swift in Sources */,
+				74B8CDEB2AA5D8F1001CE03C /* TicksShape.swift in Sources */,
+				742A5CBE2AAF5E1B00BFEDE7 /* Task+Extensions.swift in Sources */,
+				74B8CDDB2AA5D8E9001CE03C /* QuoteView.swift in Sources */,
+				74B8CDDA2AA5D63F001CE03C /* String+Extensions_TamagochiVVV.swift in Sources */,
+				74E1017F2AA9E2EF00650156 /* Extensions_TamagochiVVV.swift in Sources */,
+				74B8CDB72AA5CEF7001CE03C /* TamagochiWidgetBundle.swift in Sources */,
+				74B8CDCE2AA5D2EB001CE03C /* Quote.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74E0EF2F2AA8B9ED0013ED8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742A5CDA2AAF862B00BFEDE7 /* ClockWidgetView.swift in Sources */,
+				742A5CDB2AAF862B00BFEDE7 /* QuoteView.swift in Sources */,
+				742A5CD22AAF862B00BFEDE7 /* BatteryWidgetView.swift in Sources */,
+				74DF91E02AA8BF2900A23E23 /* TamagochiWidget.intentdefinition in Sources */,
+				742A5CD42AAF862B00BFEDE7 /* CalendarView_TamagochiVVV.swift in Sources */,
+				742A5CD92AAF862B00BFEDE7 /* MagicClockView.swift in Sources */,
+				742A5CBC2AAF3E7000BFEDE7 /* Date+Extensions.swift in Sources */,
+				742A5CE72AAF86AD00BFEDE7 /* TickHands.swift in Sources */,
+				742A5CD32AAF862B00BFEDE7 /* ClockTextAndDate.swift in Sources */,
+				742A5CD12AAF862B00BFEDE7 /* GoodDayView.swift in Sources */,
+				74E101832AA9E54300650156 /* Array+Extensions_TamagochiVVV.swift in Sources */,
+				742A5CE62AAF86AD00BFEDE7 /* TickText.swift in Sources */,
+				74E0EF382AA8B9EE0013ED8A /* MyPetIntentHandler.swift in Sources */,
+				742A5CE12AAF866100BFEDE7 /* Color+Extensions.swift in Sources */,
+				742A5CD72AAF862B00BFEDE7 /* WeatherTextView.swift in Sources */,
+				742A5CDC2AAF862B00BFEDE7 /* InfoWidgetView.swift in Sources */,
+				742A5CE22AAF868100BFEDE7 /* ClockView.swift in Sources */,
+				742A5CE92AAF86B100BFEDE7 /* UIDevice+Extensions.swift in Sources */,
+				742A5CBA2AAF3CB800BFEDE7 /* TamagochiObject.swift in Sources */,
+				742A5CBF2AAF5E1C00BFEDE7 /* Task+Extensions.swift in Sources */,
+				74E101802AA9E49700650156 /* SmartPetSettingsViewModel.swift in Sources */,
+				742A5CD62AAF862B00BFEDE7 /* BatteryView.swift in Sources */,
+				742A5CCD2AAF85B600BFEDE7 /* View+Modifiers.swift in Sources */,
+				74A044D62AC41A2F00E8593E /* Enums+Helpers.swift in Sources */,
+				742A5CE42AAF869D00BFEDE7 /* CoreDataHelper.swift in Sources */,
+				742A5CE82AAF86AD00BFEDE7 /* TicksShape.swift in Sources */,
+				74135B512ACD8DA90023FA63 /* UIImage+Extensions_TamagochiVVV.swift in Sources */,
+				742A5CCE2AAF85D400BFEDE7 /* UIKit+Helpers.swift in Sources */,
+				742A5CC02AAF6A6900BFEDE7 /* String+Extensions_TamagochiVVV.swift in Sources */,
+				742A5CDD2AAF863E00BFEDE7 /* Protocols+Extensions.swift in Sources */,
+				749CBC4A2AB06D040055D319 /* TamagochiWidgetLS1.swift in Sources */,
+				74E101852AA9E56600650156 /* Temperature.swift in Sources */,
+				742A5CD02AAF85F200BFEDE7 /* ClockText.swift in Sources */,
+				742A5CC42AAF733E00BFEDE7 /* SoundPlayer.swift in Sources */,
+				742A5CE02AAF865300BFEDE7 /* PreviewData.swift in Sources */,
+				742A5CEA2AAF86BF00BFEDE7 /* TamagochiLogic.swift in Sources */,
+				742A5CBB2AAF3E5800BFEDE7 /* TamagochiModel.xcdatamodeld in Sources */,
+				742A5CD82AAF862B00BFEDE7 /* EventView.swift in Sources */,
+				742A5CE32AAF868700BFEDE7 /* Quote.swift in Sources */,
+				742A5CD52AAF862B00BFEDE7 /* WeatherMultipleView.swift in Sources */,
+				742A5CBD2AAF3E8400BFEDE7 /* Int+Extensions_TamagochiVVV.swift in Sources */,
+				742A5CDE2AAF864600BFEDE7 /* WidgetsViewModel.swift in Sources */,
+				74DF82042AAB6BD60097BF43 /* TamagochiWidgetLiveActivity.swift in Sources */,
+				742A5CCF2AAF85E200BFEDE7 /* MagicClockGrid.swift in Sources */,
+				74AF05B52AB079BE00C0C81E /* Extensions_TamagochiVVV.swift in Sources */,
+				74E101812AA9E52500650156 /* AppConstants_TamagochiVVV.swift in Sources */,
+				742A5CE52AAF86AD00BFEDE7 /* HandShape.swift in Sources */,
+				742A5CDF2AAF864E00BFEDE7 /* WidgetData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74B8CDC32AA5CEF9001CE03C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B8CDAF2AA5CEF7001CE03C /* TamagochiExtensionWidget */;
+			targetProxy = 74B8CDC22AA5CEF9001CE03C /* PBXContainerItemProxy */;
+		};
+		74E0EF3B2AA8B9EE0013ED8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74E0EF322AA8B9ED0013ED8A /* WidgetIntentExt */;
+			targetProxy = 74E0EF3A2AA8B9EE0013ED8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7445A0C72A8B8C4D001E7DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7445A0C82A8B8C4D001E7DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7445A0CA2A8B8C4D001E7DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tamagochi/Tamagochi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tamagochi/Preview Content\"";
+				DEVELOPMENT_TEAM = 89SPL377XV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tamagochi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "App Tracking Description";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				"INFOPLIST_KEY_UIUserInterfaceStyle[sdk=*]" = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newbundle.webgeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7445A0CB2A8B8C4D001E7DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tamagochi/Tamagochi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tamagochi/Preview Content\"";
+				DEVELOPMENT_TEAM = 89SPL377XV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tamagochi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "App Tracking Description";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				"INFOPLIST_KEY_UIUserInterfaceStyle[sdk=*]" = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newbundle.webgeek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74B8CDC52AA5CEF9001CE03C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TamagochiWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89SPL377XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TamagochiWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TamagochiWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSLocationUsageDescription = 1;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newbundle.webgeek.TamagochiExtensionWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74B8CDC62AA5CEF9001CE03C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TamagochiWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89SPL377XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TamagochiWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TamagochiWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSLocationUsageDescription = 1;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newbundle.webgeek.TamagochiExtensionWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74E0EF3E2AA8B9EE0013ED8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WidgetIntentExt/WidgetIntentExt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89SPL377XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetIntentExt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetIntentExt;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSLocationUsageDescription = 1;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location to show weather data";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newbundle.webgeek.WidgetIntentExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74E0EF3F2AA8B9EE0013ED8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WidgetIntentExt/WidgetIntentExt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89SPL377XV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetIntentExt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetIntentExt;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We will use your location to show weather data";
+				INFOPLIST_KEY_NSLocationUsageDescription = 1;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location to show weather data";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.newbundle.webgeek.WidgetIntentExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7445A0A02A8B8C4C001E7DF3 /* Build configuration list for PBXProject "Tamagochi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7445A0C72A8B8C4D001E7DF3 /* Debug */,
+				7445A0C82A8B8C4D001E7DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7445A0C92A8B8C4D001E7DF3 /* Build configuration list for PBXNativeTarget "Tamagochi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7445A0CA2A8B8C4D001E7DF3 /* Debug */,
+				7445A0CB2A8B8C4D001E7DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B8CDC72AA5CEF9001CE03C /* Build configuration list for PBXNativeTarget "TamagochiExtensionWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B8CDC52AA5CEF9001CE03C /* Debug */,
+				74B8CDC62AA5CEF9001CE03C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74E0EF3D2AA8B9EE0013ED8A /* Build configuration list for PBXNativeTarget "WidgetIntentExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E0EF3E2AA8B9EE0013ED8A /* Debug */,
+				74E0EF3F2AA8B9EE0013ED8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74A2C05A2A8FFC0100D63A00 /* TamagochiModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74A2C05B2A8FFC0100D63A00 /* TamagochiModel.xcdatamodel */,
+			);
+			currentVersion = 74A2C05B2A8FFC0100D63A00 /* TamagochiModel.xcdatamodel */;
+			path = TamagochiModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7445A09D2A8B8C4C001E7DF3 /* Project object */;
+}

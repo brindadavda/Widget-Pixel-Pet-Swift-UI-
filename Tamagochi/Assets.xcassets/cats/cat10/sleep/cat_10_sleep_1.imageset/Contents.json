@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "cat_10_sleep_1.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

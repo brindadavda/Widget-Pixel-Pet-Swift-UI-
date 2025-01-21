@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "cat_12_crouch_6.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
