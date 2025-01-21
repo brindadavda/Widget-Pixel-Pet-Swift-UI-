@@ -15,8 +15,6 @@ Widget Pixel Pets is an engaging iOS application that brings pixelated pets to y
 
 ## 📱 Screenshots
 | iPhone |
-## 📱 Screenshots
-| iPhone |
 |--------|
 | <img src="https://github.com/user-attachments/assets/83442366-d4ec-4118-ae90-689917f243cf" alt="Screenshot 1" width="300"> |
 | <img src="https://github.com/user-attachments/assets/f7f70546-b22b-4817-833a-cf4caadb3be8" alt="Screenshot 2" width="300"> |
